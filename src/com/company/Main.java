@@ -34,7 +34,8 @@ public class Main {
         }
         if (hoursWorked >= 0 && hoursWorked < 45) {
             totalPay = hoursWorked * hourlyPay;
-        } else {
+        }
+        else {
             System.out.println("invalid input");
         }
         payAfterTax = totalPay * 0.8;
